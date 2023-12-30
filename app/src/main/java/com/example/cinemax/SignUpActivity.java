@@ -47,7 +47,7 @@ public class SignUpActivity extends AppCompatActivity {
     Button signup;
     TextView login;
     EditText username, password, re_password, email;
-    String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
+    String emailPattern = "^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,})$";
 
 
     TextView facebookSignUpBtn;

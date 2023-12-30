@@ -60,7 +60,7 @@ public class SignInActivity extends AppCompatActivity {
 
     FirebaseAuth auth = FirebaseAuth.getInstance();
     FirebaseDatabase database = FirebaseDatabase.getInstance();
-    String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
+    String emailPattern = "^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,})$";
 
     GoogleSignInClient googleSignInClient;
     ActivityResultLauncher<Intent> signInLauncher;
