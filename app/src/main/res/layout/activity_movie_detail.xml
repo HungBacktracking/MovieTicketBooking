@@ -9,7 +9,7 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_movie_item"
-        android:layout_marginTop="160dp"
+        android:layout_marginTop="-60dp"
         android:layout_width="match_parent"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
@@ -20,7 +20,7 @@
         app:cardElevation="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@id/card_backdrop">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -172,6 +172,7 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/card_backdrop"
         android:layout_marginTop="-10dp"
         android:layout_marginStart="-5dp"
         android:layout_marginEnd="-5dp"
@@ -182,17 +183,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:cardCornerRadius="10dp"
         app:cardElevation="20dp">
-        <ImageView
-            android:id="@+id/activity_movie_detail_backward_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/back"
-            android:layout_marginTop="20dp"
-            android:layout_marginStart="20dp"
-            android:translationZ="5dp"
-            android:elevation="20dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -200,6 +190,18 @@
             android:background="@color/black"
             android:id="@+id/activity_movie_detail_backdrop"/>
     </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/activity_movie_detail_backward_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:translationZ="10dp"
+        android:elevation="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/activity_movie_detail_wishlist_btn"
