@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal"
+        android:background="@drawable/actor_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_actor_image"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:cardCornerRadius="300dp"
+            app:cardPreventCornerOverlap="false"
+            app:cardElevation="1dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/actor_holder_image"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:maxWidth="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/actor_holder_name"
+            android:text="Chris Evans mong to cha ba lua ha ha ha kjong"
+            android:textColor="#4A4E52"
+            android:textSize="14sp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            app:layout_constraintTop_toBottomOf="@id/card_actor_image"
+            app:layout_constraintStart_toStartOf="@id/card_actor_image"
+            app:layout_constraintEnd_toEndOf="@id/card_actor_image"
+            android:gravity="center"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:maxWidth="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/actor_holder_character"
+            android:text="Captain America"
+            android:layout_marginTop="5dp"
+            android:textSize="12sp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            app:layout_constraintTop_toBottomOf="@id/actor_holder_name"
+            app:layout_constraintStart_toStartOf="@id/card_actor_image"
+            app:layout_constraintEnd_toEndOf="@id/card_actor_image"
+            android:textAlignment="center"
+            android:textColor="@android:color/darker_gray"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

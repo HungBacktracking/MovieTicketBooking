@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Menu items -->
+    <item
+        android:id="@+id/genre_action"
+        android:title="Action" />
+    <item
+        android:id="@+id/genre_adventure"
+        android:title="Adventure" />
+    <item
+        android:id="@+id/genre_animation"
+        android:title="Animation" />
+    <item android:id="@+id/genre_comedy"
+        android:title="Comedy"/>
+
+    <item android:id="@+id/genre_crime"
+        android:title="Crime"/>
+
+    <item android:id="@+id/genre_drama"
+        android:title="Drama"/>
+
+    <item android:id="@+id/genre_all"
+        android:title="All"/>
+</menu>

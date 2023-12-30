@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="75dp"
+    android:layout_height="75dp"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    android:background="@drawable/bg_time_available"
+    android:id="@+id/viewholder_calendar_background">
+
+    <TextView
+        android:layout_marginTop="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WED"
+        android:textStyle="bold"
+        android:textColor="#C4C9DF"
+        android:textSize="12sp"
+        android:layout_gravity="center"
+        android:id="@+id/viewholder_calendar_day"/>
+
+    <TextView
+        android:layout_margin="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20"
+        android:textColor="#C4C9DF"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:id="@+id/viewholder_calendar_date"/>
+
+</LinearLayout>

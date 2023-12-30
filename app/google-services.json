@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "708476202508",
+    "firebase_url": "https://cinemax-363b4-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "cinemax-363b4",
+    "storage_bucket": "cinemax-363b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708476202508:android:fba6352c77a7d939fe4829",
+        "android_client_info": {
+          "package_name": "com.example.cinemax"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708476202508-urv46od4u8nm7tmpm796pat6cb62ndo2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cinemax",
+            "certificate_hash": "6b95bca97bc8dab8f583dc0924a62d654742e68d"
+          }
+        },
+        {
+          "client_id": "708476202508-veq3p23qdbfumh6boqu6dep5j8oufto7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUcmCq05G6V45p_m03zfyzUQl9VIhZoT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708476202508-veq3p23qdbfumh6boqu6dep5j8oufto7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

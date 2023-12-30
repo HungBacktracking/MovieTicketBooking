@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="30dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ticket_movie_name_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:text="Movie name"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"/>
+
+
+    <TextView
+        android:id="@+id/ticket_date_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:text="Friday, 26"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/ticket_time_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:text="10:00 AM"
+        android:textSize="12sp"/>
+
+
+
+    <TextView
+        android:id="@+id/ticket_cinema_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:text="CGV Hoang Van Thu"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/ticket_seat_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:text="Seat: 15,16"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ticket_price_dialog"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="25dp"
+        android:text="Price: 100.000 VND"
+        android:textSize="15sp"
+        android:textColor="#FF0404"/>
+</LinearLayout>
