@@ -46,7 +46,7 @@ public class WishlistAdapter extends RecyclerView.Adapter<WishlistAdapter.Wishli
 
         holder.movieGenre.setText(movie.getGenre());
 
-        Glide.with(context).load("https://image.tmdb.org/t/p/w500" + movie.getPosterPath()).placeholder(R.drawable.bg_image_main_activity).override(300,330).fitCenter().into(holder.movieImage);
+        Glide.with(context).load("https://image.tmdb.org/t/p/w500" + movie.getPosterPath()).placeholder(R.drawable.bg_image_main_activity).override(290,300).fitCenter().into(holder.movieImage);
     }
 
     @Override
